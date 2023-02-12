@@ -1,5 +1,6 @@
 @import '@angular/material/theming';
 @include mat-core();
+@import "{{ site.theme }}";
 /* For use in src/lib/core/theming/_palette.scss */
 $md-lightprimary: (
     50 : #eef8f6,
